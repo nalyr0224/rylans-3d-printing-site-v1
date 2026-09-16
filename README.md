@@ -4,3 +4,6 @@
 >
 >This isn't an actual business 
 ![rylans-3d-printing-logo](logo.png)
+
+### Contributing
+If you want to contribute, please only fix bugs. If you want a new feature implemented, please open an issue with the enhancement lable.
