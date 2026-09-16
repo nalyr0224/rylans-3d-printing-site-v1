@@ -1,4 +1,4 @@
-# rylans-3d-printing-site-v1
+# Rylan's 3D Printing Website
 
 >This is the beginnings of my 3d printing site
 >
