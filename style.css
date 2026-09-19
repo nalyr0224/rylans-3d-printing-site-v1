@@ -70,3 +70,57 @@ body {
 .padding-above {
   padding-top: 10px;
 }
+.product-image {
+  width: 250px;
+  height: 250px;
+}
+.flexbox-container {
+  display: flex;
+}
+.product-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  background-color: rgba(33, 33, 33, 0.5);
+  display: flex; /* Keeps the track constrained */
+  align-items: center;
+}
+.product-carousel-images {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+.product-carousel-images figure {
+  margin: 0;
+  padding: 20px;
+  min-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product-carousel-images img {
+  max-width: 200px;
+  height: auto;
+}
+.nav-button {
+background: #1ade00;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute; /* Takes buttons out of the normal document flow */
+  top: 50%; /* Pushes them halfway down */
+  transform: translateY(-50%); /* Centers them perfectly vertically */
+  z-index: 10; /* Ensures they sit on top of the images */
+  transition: 0.2s;
+}
+.nav-button:hover {
+  background: #14a800;
+}
+.prev-btn {
+  left: 0;
+}
+.next-btn {
+  right: 0;
+}
